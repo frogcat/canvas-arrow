@@ -9,7 +9,7 @@ Simple javascript lib to add CanvasRederingContext2D#arrow method
 
 ## Usage
 
-```
+```html
 // include canvas-arrow.js to extend CanvasRenderingContext2D
 <script src="https://frogcat.github.io/canvas-arrow/canvas-arrow.js"></script>`
 ...
@@ -26,7 +26,9 @@ context.fill();
 ## API
 
 
-`CanvasRederingContext2D#arrow(startX, startY, endX, endY, controlPoints);`
+```js
+CanvasRederingContext2D#arrow(startX, startY, endX, endY, controlPoints);
+```
 
 
 ### Parameters
